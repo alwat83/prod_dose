@@ -1,12 +1,15 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { MatTabsModule } from '@angular/material/tabs'; // Import MatTabsModule
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true,
+  imports: [RouterOutlet, MatTabsModule], // Add MatTabsModule to imports
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'dose-ninja';
+  title = 'dose-ninja-fresh';
+  currentYear: number = new Date().getFullYear(); // Add currentYear property
 }
