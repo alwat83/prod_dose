@@ -1,0 +1,33 @@
+<div class="app-container">
+  <header>
+    <nav>
+      <ul>
+        <mat-tab-group>
+          <mat-tab label="login">
+            <router-outlet></router-outlet>
+          </mat-tab>
+          <mat-tab label="register">
+            <router-outlet></router-outlet>
+          </mat-tab>
+          <mat-tab label="medication-search">
+            <router-outlet></router-outlet>
+          </mat-tab>
+          <mat-tab label="tracking-list">
+            <router-outlet></router-outlet>
+          </mat-tab>
+          <mat-tab label="dosage-correction">
+            <router-outlet></router-outlet>
+          </mat-tab>
+          <mat-tab label="dashboard">
+            <router-outlet></router-outlet>
+          </mat-tab>
+        </mat-tab-group>
+      </ul>
+    </nav>
+  </header>
+  <main>
+  </main>
+  <footer>
+    <p>&copy; {{ currentYear }} Dose Ninja. All rights reserved.</p>
+  </footer>
+</div>
