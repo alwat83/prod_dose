@@ -1,11 +1,11 @@
 import { Routes } from '@angular/router';
-import { MedicationSearchComponent } from './components/medication-search/medication-search.component.ts';
-import { DrugDetailsComponent } from './components/drug-details/drug-details.component.ts';
-import { TrackingListComponent } from './components/tracking-list/tracking-list.component.ts';
-import { LoginComponent } from './components/login/login.component.ts';
-import { RegisterComponent } from './components/register/register.component.ts';
-import { DosageCorrectionComponent } from './components/dosage-correction/dosage-correction.component.ts';
-import { DashboardComponent } from './components/dashboard/dashboard.component.ts';
+import { MedicationSearchComponent } from './components/medication-search/medication-search.component';
+import { DrugDetailsComponent } from './components/drug-details/drug-details.component';
+import { TrackingListComponent } from './components/tracking-list/tracking-list.component';
+import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './components/register/register.component';
+import { DosageCorrectionComponent } from './components/dosage-correction/dosage-correction.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 export const routes: Routes = [
   { path: 'login', component: LoginComponent },
